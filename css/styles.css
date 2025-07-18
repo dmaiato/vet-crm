@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.option-divider {
+  color: whitesmoke;
+}
+
+h2,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: #00ff9d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008854;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #009b60;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #303030;
+  border-radius: 8px;
+}
+
+table th,
+table td {
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+table th {
+  background-color: #383838;
+}
+
+.success {
+  color: rgb(35, 167, 255);
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.reason-container {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
