@@ -11,14 +11,14 @@ Sistema web para agendamento de consultas veterinárias desenvolvido com PHP e M
 - Docker ([Instalação](https://docs.docker.com/get-docker/))
 - Docker Compose ([Instalação](https://docs.docker.com/compose/install/))
 
-# Como rodar
+## Como rodar
 Rode o seguinte comando na pasta do projeto:
 ```bash
 docker-compose up --build
 ```
 Então acesse: localhost:8000
 
-# Parar execução
+## Parar execução
 ```bash
 docker-compose down -v
 ```
